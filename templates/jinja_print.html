@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body style="background-color: rgb(138, 189, 190);">
+
+    <!-- <center><h1>Here we are printing the data which are coming from Backend(views)</h1>
+        <h2>{{name}}</h2>
+        <h3>{{age}}</h3>
+    </center> -->
+    <!-- using if condition operation -->
+    <!-- <center>
+        <h1>here we are performing jinja operetions on data which are coming from Backend</h1>
+        {% if age < 18 %}
+            <h2>{{name}}</h2>
+            <h3>{{age}}</h3>
+        {% endif %}
+
+    </center> -->
+    <center>
+        <h1>using if else condition</h1>
+        {% if age < 18 %}
+            <h2>{{name}}</h2>
+            <h3>{{age}}</h3>
+        {% else %}
+            <h2>Given age in views is not satisfy the condition..So ur age is not suitable</h2>
+        {% endif %}
+
+    </center>
+</body>
+</html>
